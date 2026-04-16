@@ -17,7 +17,7 @@
 9. **Maximum 1-2 tickers on live per session**
 
 ## Position Sizing
-- Max risk per trade: 1% of account (~$280)
+- Max risk per trade: 1% of account 
 - Prove edge in sim first — minimum 5 profitable sessions before going live on a ticker
 - Size into conviction on thesis trades
 

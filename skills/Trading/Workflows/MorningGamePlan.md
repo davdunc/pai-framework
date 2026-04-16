@@ -56,7 +56,7 @@ For each ticker on the watchlist:
 
 ### Phase 4: Build the Game Plan (7:00-7:15 CT)
 
-1. **Create Notion entry** in David Duncan Daily Game Plan database:
+1. **Create Notion entry** in Daily Game Plan database:
    - Date, Monthly Goal, Weekly Goal
    - Market Regime
    - 1% Change (behavioral focus from recent lessons)

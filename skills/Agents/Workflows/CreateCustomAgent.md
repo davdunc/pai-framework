@@ -188,7 +188,7 @@ bun run ComposeAgent.ts --traits "research,enthusiastic,thorough" --task "Analyz
 
 # Agent 2 - Skeptical Data Analyst
 bun run ComposeAgent.ts --traits "data,skeptical,systematic" --task "Analyze climate data patterns" --output json
-# Returns: voice="{PRINCIPAL.NAME}", voice_id="onwK4e9ZLuTAKqWW03F9"
+# Returns: voice="{PRINCIPAL.NAME}", voice_id="${ELEVENLABS_VOICE_ID}"
 
 # Agent 3 - Creative Pattern Finder
 bun run ComposeAgent.ts --traits "data,creative,exploratory" --task "Analyze climate data patterns" --output json

@@ -31,7 +31,7 @@
 - **Catalyst keywords:** acquisition, merger, partnership, offering, FDA, approval, contract, restructuring, bankruptcy, investigation
 
 ## DAS Trader Exports
-- **Path:** `/mnt/c/Users/davdunc/OneDrive/Desktop/Trade_Review/YYYY-MM/YYYY-MM-DD/`
+- **Path:** `/path/to/your/Trade_Review/
 - **Files:**
   - `Trades.csv` — Individual executions (TradeID, Account, B/S, Symbol, Qty, Price, Time)
   - `Orders.csv` — Order history
@@ -40,4 +40,4 @@
   - `pnl-by-position-*.jpg` — P&L screenshot
   - `positions-*.csv` — Position details
   - `*.jpg` — Chart screenshots per ticker
-- **Accounts:** 1RB16917 (live/Cobra), TR4425 (sim)
+- **Accounts:** YOUR_LIVE_ACCOUNT (live), YOUR_SIM_ACCOUNT (sim)

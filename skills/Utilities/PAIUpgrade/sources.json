@@ -108,9 +108,9 @@
       "check_issues": false
     },
     {
-      "name": "davdunc-plugins",
-      "owner": "davdunc",
-      "repo": "davdunc-plugins",
+      "name": "your-plugins",
+      "owner": "YOUR_USERNAME",
+      "repo": "your-plugins",
       "priority": "HIGH",
       "check_commits": true,
       "check_releases": true,

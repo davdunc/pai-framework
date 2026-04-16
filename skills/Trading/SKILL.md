@@ -5,7 +5,7 @@ description: Intraday trading intelligence system — morning game plans, trade 
 
 # Trading
 
-Intraday momentum trading intelligence system for davdunc. Integrates DAS Trader exports, Finviz screener, Massive.com OHLCV, SEC EDGAR filings, and analyst content extraction into a searchable intelligence base that powers daily game plans.
+Intraday momentum trading intelligence system. Integrates DAS Trader exports, Finviz screener, Massive.com OHLCV, SEC EDGAR filings, and analyst content extraction into a searchable intelligence base that powers daily game plans.
 
 ## Customization
 
@@ -31,11 +31,11 @@ Intraday momentum trading intelligence system for davdunc. Integrates DAS Trader
 
 ## Core Paths
 
-- **DAS Trader exports:** `/mnt/c/Users/davdunc/OneDrive/Desktop/Trade_Review/`
+- **DAS Trader exports:** `/path/to/your/Trade_Review/`
 - **Intelligence base:** `~/.claude/PAI/USER/TRADING/Intelligence/`
 - **Historical reviews:** `~/.claude/PAI/USER/TRADING/Reviews/`
 - **TELOS integration:** `~/.claude/PAI/USER/TELOS/`
-- **Notion workspace:** TeamJaDaDa — David Duncan Daily Game Plan database
+- **Notion workspace:** YOUR_WORKSPACE — Daily Game Plan database
 
 ## Workflow Routing
 
@@ -84,11 +84,11 @@ User: "ingest this video https://youtube.com/watch?v=xyz"
 
 ## Quick Reference
 
-- **Accounts:** 1RB16917 (live/Cobra), TR4425 (sim)
+- **Accounts:** YOUR_LIVE_ACCOUNT (live), YOUR_SIM_ACCOUNT (sim)
 - **Time zone:** Central — market open 8:30 CT
-- **Platform:** DAS Trader Pro + ThinkorSwim (Bookmap)
-- **Strategies:** Momentum — gaps, breakouts, VWAP, ORB, 9EMA x VWAP/21EMA
-- **Risk:** ~$28K account, 1% per trade max risk
+- **Platform:** DAS Trader Pro
+- **Strategies:** Momentum — gaps, breakouts, VWAP, ORB
+- **Risk:** 1% per trade max risk
 
 **Full Documentation:**
 - Setup definitions: `PlaybookSetups.md`
