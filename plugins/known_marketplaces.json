@@ -1,0 +1,17 @@
+{
+  "claude-plugins-official": {
+    "source": {
+      "source": "github",
+      "repo": "anthropics/claude-plugins-official"
+    },
+    "installLocation": "/home/davdunc/.claude/plugins/marketplaces/claude-plugins-official",
+    "lastUpdated": "2026-04-01T23:49:32.446Z"
+  },
+  "davdunc-plugins": {
+    "source": {
+      "source": "github",
+      "repo": "davdunc/davdunc-plugins"
+    },
+    "installLocation": "/home/davdunc/.claude/plugins/marketplaces/davdunc-plugins"
+  }
+}
