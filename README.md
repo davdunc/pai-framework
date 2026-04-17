@@ -14,7 +14,7 @@ PAI turns Claude Code into a personalized AI system with:
 
 ## Origin
 
-This framework was originally designed and built by **Daniel**. This fork represents an evolution tailored to a specific user's mission — trading automation, Linux cloud infrastructure, and systematic market analysis.
+This framework was originally designed and built by **Daniel**, who open-sourced it. This fork represents an evolution tailored to a specific user's mission — systematic trading automation, Linux cloud infrastructure (Fedora Cloud SIG), and bridging the two.
 
 We're sharing it back because the architecture is genuinely useful and because building on someone else's thoughtful work deserves acknowledgment.
 
@@ -50,5 +50,5 @@ MIT — Use it, fork it, make it yours.
 
 ## Acknowledgments
 
-- **Daniel** — Original PAI architect. Thank you for designing a system worth building on.
+- **Daniel** — Original PAI architect who open-sourced this system. Thank you for designing something worth building on.
 - **Anthropic** — For Claude Code and the model that makes this possible.
