@@ -10,11 +10,11 @@ PAI turns Claude Code into a personalized AI system with:
 - **Skills** — Modular capability packages with workflows, tools, and routing
 - **Hooks** — Lifecycle event handlers for security validation, context management, session learning, and system integrity
 - **Memory** — Persistent file-based memory system for user context, project state, and learning reflections
-- **TELOS** — A life operating system for tracking goals, projects, challenges, and personal growth
+- **[TELOS](https://danielmiessler.com/telos)** — Daniel's life operating system for tracking goals, projects, challenges, and personal growth
 
 ## Origin
 
-This framework was originally designed and built by **Daniel**, who open-sourced it. This fork represents an evolution tailored to a specific user's mission — systematic trading automation, Linux cloud infrastructure (Fedora Cloud SIG), and bridging the two.
+This framework was originally designed and built by **[Daniel Miessler](https://danielmiessler.com)** and released as [Personal_AI_Infrastructure](https://github.com/danielmiessler/Personal_AI_Infrastructure). This fork represents an evolution tailored to a specific user's mission — systematic trading automation, Linux cloud infrastructure (Fedora Cloud SIG), and bridging the two.
 
 We're sharing it back because the architecture is genuinely useful and because building on someone else's thoughtful work deserves acknowledgment.
 
@@ -41,7 +41,7 @@ We're sharing it back because the architecture is genuinely useful and because b
 
 1. Install [Claude Code](https://claude.ai/claude-code)
 2. Copy this framework to `~/.claude/`
-3. Create your `PAI/USER/` directory with your own TELOS, projects, and customizations
+3. Create your `PAI/USER/` directory with your own [TELOS](https://danielmiessler.com/telos), projects, and customizations
 4. Create a `settings.json` from `settings.json.template`
 
 ## License
@@ -50,5 +50,5 @@ MIT — Use it, fork it, make it yours.
 
 ## Acknowledgments
 
-- **Daniel** — Original PAI architect who open-sourced this system. Thank you for designing something worth building on.
+- **[Daniel Miessler](https://danielmiessler.com)** — Original PAI architect ([Personal_AI_Infrastructure](https://github.com/danielmiessler/Personal_AI_Infrastructure)) and creator of [TELOS](https://danielmiessler.com/telos). Thank you for designing something worth building on.
 - **Anthropic** — For Claude Code and the model that makes this possible.
