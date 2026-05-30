@@ -42,8 +42,8 @@ Parameters:
 
   ScheduleExpression:
     Type: String
-    Default: 'cron(0 11 * * ? *)'
-    Description: 06:00 CT = 11:00 UTC daily by default
+    Default: 'cron(0 11 ? * MON-FRI *)'
+    Description: 06:00 CT = 11:00 UTC, weekdays only (Mon-Fri)
   EnableSchedule:
     Type: String
     Default: 'true'

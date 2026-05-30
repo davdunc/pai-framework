@@ -13,7 +13,7 @@ REGION="${AWS_REGION:-us-east-2}"
 STACK="${STACK_NAME:-usmetrics-notion-refresh}"
 BUCKET="${STAGING_BUCKET:-davdunc-pai-backup}"
 NOTION_PAGE_ID="${NOTION_PAGE_ID:-36e973b9-8fae-8159-9cac-c16f85164ca5}"
-SCHEDULE_EXPR="${SCHEDULE_EXPRESSION:-cron(0 11 * * ? *)}"
+SCHEDULE_EXPR="${SCHEDULE_EXPRESSION:-cron(0 11 ? * MON-FRI *)}"
 
 if [[ -z "${NOTION_TOKEN:-}" || -z "${FRED_API_KEY:-}" ]]; then
   echo "ERROR: NOTION_TOKEN and FRED_API_KEY must be set in the environment." >&2
