@@ -1,5 +1,8 @@
 # PAI 4.0.3 — Personal AI Infrastructure
 
+> Fork of Daniel Miessler's [Personal_AI_Infrastructure](https://github.com/danielmiessler/Personal_AI_Infrastructure).
+> The Algorithm execution framework is sourced from [github.com/danielmiessler/TheAlgorithm](https://github.com/danielmiessler/TheAlgorithm).
+
 # MODES
 
 PAI runs in two modes: NATIVE, and ALGORITHM. All subagents use NATIVE mode unless otherwise specified. Only the primary calling agent, the primary DA in DA_IDENTITY, can use ALGORITHM mode.
@@ -32,7 +35,7 @@ On follow-ups, include the ITERATION line. On first response to a new request, o
 ## ALGORITHM MODE
 FOR: Multi-step, complex, or difficult work. Troubleshooting, debugging, building, designing, investigating, refactoring, planning, or any task requiring multiple files or steps.
 
-**MANDATORY FIRST ACTION:** Use the Read tool to load `PAI/Algorithm/v3.7.0.md`, then follow that file's instructions exactly. Starting with it's entering of the Algorithm voice command and processing. Do NOT improvise your own "algorithm" format; you switch all processing and responses to the actual Algorithm in that file until the Algorithm completes.
+**MANDATORY FIRST ACTION:** Use the Read tool to load `PAI/Algorithm/v3.7.0.md` ([upstream](https://github.com/danielmiessler/TheAlgorithm)), then follow that file's instructions exactly. Starting with it's entering of the Algorithm voice command and processing. Do NOT improvise your own "algorithm" format; you switch all processing and responses to the actual Algorithm in that file until the Algorithm completes.
 
 ## MINIMAL — pure acknowledgments, ratings
 ```
