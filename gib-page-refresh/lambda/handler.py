@@ -106,12 +106,19 @@ def render_projects() -> str:
     """Return the Active Projects markdown table from PROJECTS_STATUS.md."""
     raw = s3_get_text(f"{S3_TELOS_PREFIX}PROJECTS_STATUS.md")
     rows: list[tuple[str, str, str, str]] = []
+    # Allowed statuses — anything else is treated as a format-doc line and skipped.
+    valid_statuses = {"active", "planning", "paused", "done", "archived"}
     for line in raw.splitlines():
-        # Format: - **Name** | status | url-or-none | description
-        m = re.match(r"^\s*-\s*\*\*([^*]+)\*\*\s*\|\s*(\S+)\s*\|\s*(\S+)\s*\|\s*(.+)$", line)
+        # Format: - **Name** | status | (http(s)://...|none) | description
+        m = re.match(
+            r"^\s*-\s*\*\*([^*]+)\*\*\s*\|\s*(\S+)\s*\|\s*(https?://\S+|none)\s*\|\s*(.+)$",
+            line,
+        )
         if not m:
             continue
         name, status, url, desc = (g.strip() for g in m.groups())
+        if status not in valid_statuses:
+            continue
         rows.append((name, status, url, desc))
 
     lines = ["| Project | Status | Description |", "|---|---|---|"]
