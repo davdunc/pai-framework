@@ -12,7 +12,7 @@ STACK="${STACK_NAME:-gib-page-refresh}"
 BUCKET="${STAGING_BUCKET:-davdunc-pai-backup}"
 SCHEDULE_EXPR="${SCHEDULE_EXPRESSION:-cron(5 11 ? * MON-FRI *)}"
 GITLAB_PROJECT_PATH="${GITLAB_PROJECT_PATH:-rubackedup-com/davidduncan.org}"
-GITLAB_BRANCH="${GITLAB_BRANCH:-main}"
+GITLAB_BRANCH="${GITLAB_BRANCH:-gib-page-refresh-bot}"
 TELOS_S3_PREFIX="${TELOS_S3_PREFIX:-claude/PAI/USER/TELOS/}"
 
 if [[ -z "${GITLAB_TOKEN:-}" ]]; then

@@ -39,7 +39,13 @@ Parameters:
     Description: GitLab project path (namespace/name) for the site repo
   GitlabBranch:
     Type: String
-    Default: main
+    Default: gib-page-refresh-bot
+    Description: |
+      The branch the Lambda commits to. Set to a dedicated bot branch
+      so daily TELOS-driven refreshes don't interleave with human
+      commits on main. The site's .gitlab-ci.yml is configured to
+      deploy from this branch as well as main. Merge bot branch into
+      main manually when convenient.
   GitlabToken:
     Type: String
     NoEcho: true
